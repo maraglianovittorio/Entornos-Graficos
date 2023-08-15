@@ -1,0 +1,11 @@
+Ejercicio 1:
+Qué es HTML, cuando fue creado, cuáles fueron las distintas versiones y cuál es la última?
+HTML(HyperText Markup Language) es un lenguaje de marcas de hipertexto.
+Es un lenguaje de marcado para la elaboración de páginas web.
+Sirve de referencia del software que conecta con la
+elaboración de páginas web en sus diferentes versiones, ademas define una estructura básica y un código (denominado código HTML)
+para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros
+La primer version de HTML aparecio en el año 1990 y pasó por una serie de revisiones y experimentó una serie de extensiones, alojadas principalmente en el CERN
+(Organización Europea para la Investigación Nuclear), y luego en el IETF (Internet Engineering Task Force).
+Las versiones de HTML arrancan con HTML 3.0, HTML 3.2 que se completo en 1997 para en ese mismo a;o pasar a HTML 4.01(falta)
+La ultima version de HTML es el HTML5
