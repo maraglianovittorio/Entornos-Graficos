@@ -1,0 +1,9 @@
+table{
+    border: 3px solid black;
+    width: 590px;
+    height: 350px;
+}
+th,td{
+    border: 1px solid black;
+    text-align: justify;
+}
