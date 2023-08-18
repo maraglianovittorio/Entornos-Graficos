@@ -75,7 +75,9 @@ label{
 }
 
 .form-input .text{
-    height: 100px;
+    height: 80px;
     margin:auto;
 }
-
+.mail{
+    height: 20px;
+}
