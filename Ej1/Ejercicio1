@@ -1,4 +1,4 @@
-﻿Ejercicio 1:
+﻿Ejercictacion 1:
 ¿Qué es HTML, cuando fue creado, cuáles fueron las distintas versiones y cuál es la 
 última?
 HTML(HyperText Markup Language) es un lenguaje de marcas de hipertexto.
@@ -48,14 +48,7 @@ Además le recuerda a los autores que sus documentos pueden llegar a una audienc
 
 En las especificaciones HTML, un objeto o atributo pasa a considerarse desaprobado cuando su uso deja de recomendarse, ya que los navegadores pueden interpretarlo pero en versiones futuras es muy probable que quede obsoleto, por lo que se recomienda no usar los elementos desaprobados y buscar otras alternativas.
 
-
 Un elemento se considera obsoleto cuando ya directamente los navegadores dejan de aceptarlo y se ha eliminado por completo de la especificación de HTML, por lo tanto estos elementos no se deben usar en lo absoluto.
-
-
-
-
-
-
 
 
 4. Qué es el DTD y cuáles son los posibles DTDs contemplados en la especificación de HTML 4.01? 
@@ -73,16 +66,6 @@ Declaración estricta:
 "http://www.w3.org/TR/html4/strict.dtd">
 
 
-
-
-
-
-
-
-
-
-
-
 5. Qué son los metadatos y cómo se especifican en HTML?
 El elemento META puede utilizarse para identificar propiedades de un documento (por ejemplo: el autor, la fecha de caducidad, una lista de palabras clave, etc.) y para asignar valores a esas propiedades. 
 Un uso común de META es especificar palabras clave que pueden usar los motores de búsqueda para mejorar la calidad de los resultados de una búsqueda.
@@ -90,66 +73,3 @@ Por ejemplo, con el atributo lang, para identificar el lenguaje de la pagina.
 Se especifican con la etiqueta <meta> y adentro poniendo los atributos deseados.
 
 
-Ejercicio 2.
-
-
-Analizar los siguientes segmentos de código indicando en qué sección del documento HTML se colocan, cuál es el efecto que producen y señalar cada uno de los elementos, etiquetas, y atributos (nombre y valor), aclarando si es obligatorio.
-2.a)
-<!-- Código controlado el día 12/08/2009 →
-Este segmento de código corresponde a un comentario en HTML, el cual no produce ningún efecto y sus elementos de inicio y fin son obligatorios porque sino el código los toma como un texto.
-Esto se colocaría al final del documento, para constatar que fue controlado.
-
-
-
-
-2.b)
-<div id="bloque1">Contenido del bloque1</div>
-Esto se colocaría dentro del body del HTML, ya que sería un comienzo a un nuevo bloque.
-Sus etiquetas div son obligatorias para determinar dónde arranca y donde termina, y el id=”bloque1” no es algo obligatorio si no se le agrega estilos, pero a la hora de darle estilos es mejor poner un id o clase para poder personalizar los elementos.
-
-
-
-
-2.c)
-<img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32"
-longdesc="detalles.htm" />
-Este segmento agrega una imagen la cual se puede colocar en cualquier parte del codigo dependiendo donde se la necesite, los atributos alt,id,name,width,height y longdesc no son obligatorios, pero ayudan a que sea más ordenado y que se pueda entender mejor, asi como el height y el width cambian las medidas.
-Producen el efecto de mostrar una imagen en la página html
-2.d)
-<meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />
-<meta http-equiv="expires" content="16-Sep-2019 7:49 PM" />
-Esto se colocaria dentro del head, ya que va al principio del código HTML.
-No son obligatorias, pero ayudan a posicionar mejor la página .
-2.e)
-<a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8"
-rel="help">Resumen HTML </a>
-Esta parte de código pega un link el cual redirige a otra página. Los atributos type, hreflang,charset y ref no son obligatorios pero al igual que en los anteriores apartados, aportan datos útiles para el entendimiento del código.
-
-
-
-
-2.f)
-<table width="200" summary="Datos correspondientes al ejercicio vencido">
-<caption align="top"> Título </caption>
-<tr>
-<th scope="col">&nbsp;</th>
-<th scope="col">A</th>
-<th scope="col">B</th>
-<th scope="col">C</th>
-</tr>
-<tr>
-<th scope="row">1º</th>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<th scope="row">2º</th>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-</table>
-
-
-Esta seccion crea una tabla la cual se puede
