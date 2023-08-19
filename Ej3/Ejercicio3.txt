@@ -1,0 +1,55 @@
+3.a)
+<a href="http://www.google.com.ar”>Click aquí para ir a Google</a> 
+Abre Google en la misma pestana
+<a href="http://www.google.com.ar/" target="_blank">Click aquí para ir a Google</a>
+Abre Google en una pestaña distinta 
+<a href="http://www/google.com.ar" type="text/html" hreflang="es" charset="utf-8" rel="help">
+Define varios atributos en el enlace, incluyendo el tipo de contenido, el idioma, la codificación de caracteres y la relación: No se muestra en pantalla
+ <a href="#">Click aquí para ir a Google</a>  
+No cumple ninguna función ya que no se define el nombre del ancla
+<a href="#arriba">Click aquí para volver arriba</a> 
+Es un enlace que redirige la página donde se encuentra el enlace con el nombre “arriba” 
+<a name="arriba" id="arriba"></a> Es un ancla que define una sección de la página
+
+
+3.b)
+<p><img src="im1.jpg" alt="imagen1" /><a href="http://www.google.com.ar">Click aquí</a></p> 
+Por un lado se muestra la imagen y por otro el texto “Click Aqui” que funciona como enlace a Google.
+<p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> Click aquí</p>
+La imagen es el enlace a Google, por lo que si la presionamos nos dirige a Google pero el texto “click aquí” no forma parte del enlace.
+<p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" />Click aquí</a></p>
+La imagen forma parte del enlace a Google, por lo que si la presionamos nos dirige a Google, al igual que el texto “click aquí”.
+<p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> <a href="http://www.google.com.ar">Click aquí</a></p>
+La imagen funciona como un enlace a Google y el texto “Click aquí“ es también otro enlace distinto a google.
+
+3.c)
+
+La primera es una lista sin orden, la segunda es una lista ordenada. La diferencia de la segunda con la tercera es que la tercera son 3 listas ordenadas distintas pero se le asigna explícitamente el orden numérico a las últimas dos tablas. La cuarta no es una tabla, sino un parrafo con saltos de línea, que se encuentra dentro de un bloque de texto.
+
+
+3.d)
+
+La diferencia se encuentra en el encabezado. En la primera tabla se usa la etiqueta <th> para el encabezado, mientras que en la segunda se usa una etiqueta de celda y se usa la etiqueta <strong> para mostrar el texto en negrita.
+
+3.e) 
+En la primera tabla se usa una etiqueta <caption> para el título, mientras que en la segunda combina 3 celdas horizontalmente para el título.
+
+
+3.f)
+En la primer tabla se usa colspan y en la segunda rowspan, lo que hace que a la hora de visualizarlos la primer tabla tiene una columna alargada con una mas corta al lado, y abajo 3 columnas de la misma medida, mientras que la segunda tiene 4 casillas iguales a la derecha y una grande a la izquierda
+
+3.g)
+En la primera tabla combina 3 celdas horizontalmente para el título y en la segunda 2.
+En la segunda no se deja separación entre las tablas y tampoco entre las celdas y los bordes. Además la primera tabla tiene 3 columnas mientras que la segunda 2.
+
+3.h)
+Entre estos 3 codigos hay una pequeña diferencia entre el 1ro y el 3ro, ya que el primero que es el mas completo tiene un autorelleno de usuario y contraseña, diciéndonos que hay que ingresar allí, mientras que el segundo difiere con el primero en el recuadro y el tercero con el primero con que no tiene el llenado que aparece al abrir la página
+
+3.i)
+La diferencia que hay entre estos 2 códigos es que en el primero el botón tiene una imagen ilustrativa, mientras que el segundo no posee dicha imagen.
+
+3.j)
+En este código la única diferencia entre ellos, que no se visualiza, es que su nombre de referencia es diferente, lo que en el primero va a generar problemas cuando se envíe el resultado mediante php, ya que ambos tienen el mismo nombre y puede cruzar datos.
+
+3.k)
+La diferencia que hay entre estos codigos es que el primer codigo nos otorga las opciones para poder elegir, viendo el mes adentro pero se pueden confundir cuando se selecciona el mismo mes los casos, mientras que el segundo nos muestra lo que estamos seleccionando con los numeros de casos arriba.

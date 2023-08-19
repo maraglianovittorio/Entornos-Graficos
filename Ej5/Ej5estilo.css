@@ -1,24 +1,32 @@
+body, h1,.elemfooter {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 #logo{
     height: 65px;
     width: 250px;
     margin-top: 15px;
-
-
 }
 #encabezado{
     display: inline-block;
     vertical-align: top ;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
-    margin-top: 10px;
+    font-size: 50px;
+    margin-top: 15px;
     text-align: justify;
 }
 hr{
-    border : solid #8c94a1  7.5%;
+    border : 2px solid black  7.5%;
     margin-top:35px;
 }
-ul{
+.menu{
     display: inline-block;
+}
+ul{
+    list-style-type: circle;
 }
 iframe{
     height: 400px;
@@ -26,11 +34,20 @@ iframe{
 }
 footer {
     position: fixed;
+    display: block;
     bottom: 0;
     width: 100%;
     background-color:black;
     color: white;
     text-align: center;
-    padding: 0;
+    padding:10px 0;
+
  }
- 
+
+.elemfooter{
+    display: flex;
+    justify-content: center;
+}
+.elemfooter li{
+    margin: 0 10px;
+}
