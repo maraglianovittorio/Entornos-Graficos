@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(156, 154, 154);
+}
+hr{
+    border: none;
+    height: 2px;
+    background-color: black;
+}
+div {
+    margin: 10px;
+    text-align: center;
+}
