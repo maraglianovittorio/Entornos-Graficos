@@ -1,0 +1,29 @@
+Ejercitación 1 
+Ventajas y herramientas de HTML5
+
+1. ¿Ventajas de HTML5?
+
+Una de sus más grandes adiciones en esta versión es poder añadir audio y video sin necesidad de usar Flash u otro reproductor multimedia.
+  Los desarrolladores pueden tener acceso a una API que les permitirá determinar cómo estas nuevas etiquetas (<videos> <audio>) son presentadas a los usuarios. En otras palabras, puedes incluir videos de presentación de algún producto, críticas en video, podcasts, muestras de música, etc. La adición de estas dos etiquetas expande el uso que le puedes dar al lenguaje HTML5.
+  Con HTML5 se pueden crear animaciones en 2D gracias a la etiqueta <canvas>. La API para esta etiqueta permite dibujar elementos en 2D y animarlos.
+  También la API permite añadir eventos de teclado, ratón y cualquier otro mando que desee incluir. Esta posibilidad ha emocionado a muchos desarrolladores que se han dedicado a realizar sus juegos en HTML5. Pudiendo jugar desde cualquier navegador.
+  La gran ventaja de desarrollar aplicaciones HTML5 es que el resultado final es completamente accesible, es decir, se puede acceder a esta aplicación desde un ordenador, tablet o móvil.
+
+2. ¿Por qué utilizarlo?
+
+El lenguaje HTML5 se usa para definir la estructura básica de una página web.
+  Es importante utilizar HTML 5 ya que es la quinta revisión más importante que se hace al lenguaje HTML. En esta versión se introducen nuevas características para ayudar a los autores de aplicaciones Web, y se ha prestado especial atención a la definición de claros criterios de conformidad para los agentes de usuario (navegadores) en un esfuerzo por mejorar la interoperabilidad.
+  Algunas de estas nuevas características fueron nombradas en el punto anterior y otras ventajas serán mencionadas en el siguiente punto.
+
+3. Nombre ventajas
+
+- Es gratuito: No necesita ningún tipo de programa especial para empezar a programar en HTML5, incluso puede hacerlo en un bloc de notas, guardar el documento como HTML y podrá visualizarlo desde cualquier navegador.
+
+- Código más ordenado: Las etiquetas son claras y descriptivas, de modo que el desarrollador puede comenzar a codificar sin ningún problema. Es realmente un lenguaje bastante sencillo de comprender en esta nueva versión.
+
+- Compatibilidad en navegadores: Los navegadores modernos y populares como Chrome, Firefox, Safari y Opera soportan HTML5, es decir, sin importar qué navegador empleen los usuarios el contenido se puede visualizar correctamente. El único problema sería considerar a usuarios que emplean navegadores más antiguos, ya que en éstos no todas las nuevas funciones y etiquetas de HTML5 están disponibles.
+
+- Almacenamiento mejorado: Otra nueva adición en HTML5 ha sido el almacenamiento local que se define a sí mismo como “mejor que las cookies” pues la información nunca se transfiere al servidor. De esta manera, la información se mantiene segura.
+
+- HMTL5 y el diseño adaptativo: HTML5 es compatible con los navegadores móviles, de modo que cada página realizada en HTML5 que se ve en ordenadores, también se puede adaptar a los dispositivos móviles.
+
