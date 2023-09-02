@@ -1,0 +1,37 @@
+1. ¿ Qué es CSS y para qué se usa?
+2. CSS utiliza reglas para las declaraciones de estilo, ¿cómo funcionan?
+3. ¿ Cuáles son las tres formas de dar estilo a un documento?
+4. ¿ Cuáles son los distintos tipos de selectores más utilizados?
+Ejemplifique cada uno.
+5. ¿ Qué es una pseudo-clase? Cuáles son las más utilizadas aplicadas a vínculos?
+6. ¿ Qué es la herencia?
+7. ¿ En qué consiste el proceso denominado cascada?
+
+1. CSS son las siglas de Cascade Style Sheet que traducido significa hojas de estilo en 
+cascada. 
+Las hojas de estilo es una tecnología que nos permite controlar la apariencia de una 
+página web. 
+CSS describe como los elementos dispuestos en la página son presentados al usuario. 
+CSS es un gran avance que complementa el HTML y la Web en general. Con CSS podemos especificar estilos como el tamaño, fuentes, color, espaciado entre 
+textos y recuadros así como el lugar donde disponer texto e imágenes en la página.
+2.Una regla CSS tiene dos partes: selector y declaración. El selector indica a cual elemento se le va a dar el estilo,
+y la declaracion indica que se va a hacer, por ejemplo en un p, se pone
+p{
+    color: red;
+}
+p es el selector, color:red; la declaracion
+
+3. Las 3 formas de dar estilo a un documento son:
+•	Inline (en línea)
+•	Enlaces externo o interno
+•	Hoja de Estilo Externa
+4. Los Selectores mas usados son:
+•	Id
+•	Clases
+•	Etiquetas
+Un ejemplo de Id:
+Con una etiqueta <h1 class="titulo">, en CSS se pone #titulo y se le dan los estilos
+que queremos a este elemento concreto.
+Un ejemplo de clase: con una etiqueta <div class="nota1"> se coloca .nota1 en CSS y se le da el estilo
+que deseamos a esta nota específica.
+Un ejemplo de Etiqueta:
