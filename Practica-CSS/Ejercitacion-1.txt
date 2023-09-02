@@ -14,7 +14,8 @@ página web.
 CSS describe como los elementos dispuestos en la página son presentados al usuario. 
 CSS es un gran avance que complementa el HTML y la Web en general. Con CSS podemos especificar estilos como el tamaño, fuentes, color, espaciado entre 
 textos y recuadros así como el lugar donde disponer texto e imágenes en la página.
-2.Una regla CSS tiene dos partes: selector y declaración. El selector indica a cual elemento se le va a dar el estilo,
+2.Una regla CSS tiene dos partes: selector y declaración.
+ El selector indica a cual elemento se le va a dar el estilo,
 y la declaracion indica que se va a hacer, por ejemplo en un p, se pone
 p{
     color: red;
@@ -35,3 +36,16 @@ que queremos a este elemento concreto.
 Un ejemplo de clase: con una etiqueta <div class="nota1"> se coloca .nota1 en CSS y se le da el estilo
 que deseamos a esta nota específica.
 Un ejemplo de Etiqueta:
+<span>Esto</span>, en CSS se pone span y se le da el estilo que deseamos a este elemento.
+5.
+Pseudo clases son clases especiales que permiten modificar el comportamiento del navegador cuando se hace referencia a un elemento
+Las pseudo-clases permiten aplicar estilos a un elemento en función de interacciones del usuario, como cuando el usuario pasa el mouse sobre un enlace (:hover), 
+cuando un enlace ya ha sido visitado (:visited), o cuando un elemento obtiene el enfoque (:focus).
+6.
+La Herencia es lo mismo que decir "heredar" algo, en CSS funciona que cuando por ejemplo hay un div y dentro de ese div hay un parrafo,
+al parrafo se le aplican los estilos que tiene este div en caso de que no tenga nada, pero a su vez tiene la prioridad el elemento hijo a la hora de 
+imponer un estilo porque tiene un nivel de especificidad mayor.
+7.
+ El termino cascada en CSS se refiere al proceso de aplicar estilos a elementos HTML en función de la especificidad, importancia y orden de aparición de las reglas CSS.
+  Esto garantiza la coherencia en el diseño web y permite que los estilos se controlen de manera efectiva.
+La cascada de estilos permite que los estilos se apliquen de manera coherente y controlada, garantizando que los elementos HTML se representen correctamente en función de las reglas de diseño definidas. 
