@@ -40,5 +40,5 @@ un enlace</a></td>
 </body>
 -----------------------------------------------------------------------
 
-La diferencia del primer fragmento de codigo respecto con el segundo, es que en este se aplica la clase a la etiqueta <p> y ademas al declarar un estilo de linea (style="font-weight: normal;") este tiene prioridad con respecto al al selector de clase .contenido y 
-en consecuencia la etiqueta <p> se mostrará con un grosdor de fuente normal anulando el estilo de negrita de la clase .contenido
+La diferencia del primer fragmento de codigo respecto con el segundo, es que en este se aplica la clase a la etiqueta <p> y ademas al declarar un estilo de linea (style="font-weight: normal;") este tiene prioridad con respecto al selector de clase .contenido y 
+en consecuencia la etiqueta <p> se mostrará con un grosor de fuente normal, también anulando el estilo de negrita de la clase .contenido
