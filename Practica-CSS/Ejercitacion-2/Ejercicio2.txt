@@ -1,0 +1,30 @@
+Analizar el siguiente código señalando declaraciones y aplicaciones de reglas, y su efecto.  
+p#normal { 
+    font-family: arial,helvetica; 
+    font-size: 11px; 
+    font-weight: bold; 
+} 
+*#destacado { 
+    border-style: solid; 
+    border-color: blue; 
+    border-width: 2px; 
+} 
+#distinto { 
+    background-color: #9EC7EB; 
+    color: red; 
+} 
+<p id="normal">Este es un párrafo</p>  
+<p id="destacado">Este es otro párrafo</p>  
+<table id="destacado"><tr><td>Esta es una tabla</td></tr></table>  
+<p id="distinto">Este es el último párrafo</p>     
+
+El siguiente codigo html presenta 3 parrafos y una tabla, cada uno con un id.
+Se utiliza algo que no es recomendado, que es darle el mismo id a dos etiquetas diferentes, con el p id destacado
+y con la tabla id destacado.
+En el archivo css se aplican las reglas de los selectores con id con el #, y en el primer caso se le especifica tambien
+el p, lo que hace que tenga un nivel de especificidad mayor.
+Igual con el *#destacado, donde se selecciona todo lo que tenga la clase destacado teniendo una especificidad mayor
+a la de #distinto, lo que puede causar que en caso de que se use un selector
+p#distinto el estilo cambie.
+
+
