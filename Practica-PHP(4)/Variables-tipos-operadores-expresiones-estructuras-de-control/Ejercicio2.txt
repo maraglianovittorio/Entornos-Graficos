@@ -1,0 +1,26 @@
+Indicar si los siguientes códigos son equivalentes
+a)
+<?php
+$i = 1;
+while ($i <= 10) {
+ print $i++;
+}
+?>
+-------------------------------
+<?php
+$i = 1;
+while ($i <= 10):
+ print $i;
+ $i++;
+endwhile;
+?>
+--------------------------------
+<?php
+$i = 0;
+do {
+ print ++$i;
+} while ($i<10);
+?>
+Si, estos 3 codigos son equivalentes ya que tienen la misma salida que es una secuencia de numeros del 1 al 10,
+pero cada uno trabaja con una estructura de control diferente, ya que el primero es el mas corto con un while y mostrando la variable a medida que se suma,
+el segundo lo muestra y despues lo suma, y el tercero utiliza un dowhile y arranca la variable $i en 0
