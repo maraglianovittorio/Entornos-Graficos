@@ -1,0 +1,14 @@
+Si el archivo datos.php contiene el código que sigue:
+<?php
+$color = 'blanco';
+$flor = 'clavel';
+?>
+Indicar las salidas que produce el siguiente código. Justificar.
+<?php
+echo "El $flor $color \n";
+include 'datos.php';
+echo " El $flor $color";
+?> 
+
+Las salidas van a ser un error en el primer echo y el clavel blanco en el segundo ya que el documento datos.php 
+es incluido en la linea 9 y en el primer echo las variables $flor y $clavel no estan definidas.

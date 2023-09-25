@@ -24,3 +24,60 @@ do {
 Si, estos 3 codigos son equivalentes ya que tienen la misma salida que es una secuencia de numeros del 1 al 10,
 pero cada uno trabaja con una estructura de control diferente, ya que el primero es el mas corto con un while y mostrando la variable a medida que se suma,
 el segundo lo muestra y despues lo suma, y el tercero utiliza un dowhile y arranca la variable $i en 0.
+b)
+<?php
+for ($i = 1; $i <= 10; $i++) {
+ print $i;
+}
+?>
+-------------------------------
+<?php
+for ($i = 1; $i <= 10; print $i, $i++) ;
+?>
+-------------------------------
+<?php
+for ($i = 1; ;$i++) {
+ if ($i > 10) {
+ break;
+ }
+ print $i;
+}
+?>
+--------------------------------
+<?php
+$i = 1;
+for (;;) {
+ if ($i > 10) {
+ break;
+ }
+ print $i;
+ $i++;
+}
+?>
+Estos 4 codigos obtienen la misma salida, con la diferencia de que el segundo es el que menos lineas ocupa ya que realiza la muestra
+del valor dentro de la misma declaracion del for, mientras que las otras 3 entran al for para mostrar los valores
+c)
+<?php
+if ($i == 0) {
+ print "i equals 0";
+} elseif ($i == 1) {
+ print "i equals 1";
+} elseif ($i == 2) {
+ print "i equals 2";
+}
+?>
+-----------------------
+<?php
+switch ($i) {
+ case 0:
+ print "i equals 0";
+ break;
+ case 1:
+ print "i equals 1";
+ break;
+ case 2:
+ print "i equals 2";
+ break;
+}
+?>
+Estos 2 codigos hacen lo mismo, solamente que el segundo utiliza la estructura de control switch para las condiciones
