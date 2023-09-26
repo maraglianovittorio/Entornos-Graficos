@@ -1,0 +1,25 @@
+En cada caso, indicar las salidas correspondientes:
+a)
+<?php
+$matriz = array("x" => "bar", 12 => true);
+echo $matriz["x"];
+echo $matriz[12];
+?>
+Este codigo da como salida bar1, ya que matriz['x'] es bar y matriz[12] es true que se representa con un 1
+b)
+<?php
+$matriz = array("unamatriz" => array(6 => 5, 13 => 9, "a" => 42));
+echo $matriz["unamatriz"][6];
+echo $matriz["unamatriz"][13];
+echo $matriz["unamatriz"]["a"];
+?>
+Este codigo da como salida 5942 ya que el arreglo matriz en["unamatriz"][6] tiene asignado un 5,
+matriz["unamatriz"][13] tiene asignado un 9 y matriz["unamatriz"]["a"] un 42
+Este arreglo es un arreglo de tipo asociativo
+c)
+<?php
+$matriz = array(5 => 1, 12 => 2);
+$matriz[] = 56;
+$matriz["x"] = 42; unset($matriz[5]); unset($matriz);
+?> 
+Este codigo no tiene ninguna salida correspondiente ya que no hay ningun print ni echo
