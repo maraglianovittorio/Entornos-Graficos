@@ -12,8 +12,9 @@
         <input type="submit" value="Configurar Titular">
     </form>
 </body>
+<a href="borrar_cookie.php">Borrar Cookie</a>
 </html>
 
-<a href="borrar_cookie.php">Borrar Cookie</a>
+
 
 
